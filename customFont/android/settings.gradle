@@ -1,0 +1,3 @@
+rootProject.name = 'customFont'
+
+include ':app'
