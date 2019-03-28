@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native'
 import CustomListView from './CustomListView'   
-class List extends Component {
+
+export default class List extends Component<Props> {
 
   getData() {
     return [
@@ -67,13 +68,14 @@ class List extends Component {
       return (
          <View style={styles.container}>
            <CustomListView
+             navigation={this.props.navigation}
              itemList={this.getData()}
            />
          </View>
       )
    }
 }
-export default List
+
 
 const styles = StyleSheet.create ({
    container: {

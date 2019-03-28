@@ -1,6 +1,25 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { View, FlatList, StyleSheet, Text } from 'react-native';
-import CustomCell2 from './CustomCell2';
+import CustomeCell3 from './CustomeCell3';
+
+export default class List extends Component<Props> {
+    render(){
+        return(
+            <View style={styles.container}>
+                <FlatList
+                        data={this.props.itemList}
+                        renderItem={({ item }) => <CustomeCell3
+                            navigation={this.props.navigation}
+                            title={item.title}
+                            description={item.description}
+                            image_url={item.image_url}
+                        />}
+                    />
+
+            </View>            
+        );
+    };
+}
 
 const styles = StyleSheet.create({
     container: {
@@ -8,19 +27,3 @@ const styles = StyleSheet.create({
     },
 });
 
-
-const CustomListView = ({ itemList }) => (
-    <View style={styles.container}>
-        <FlatList
-                data={itemList}
-                renderItem={({ item }) => <CustomCell2
-                    title={item.title}
-                    description={item.description}
-                    image_url={item.image_url}
-                />}
-            />
-
-    </View>
-);
-
-export default CustomListView;

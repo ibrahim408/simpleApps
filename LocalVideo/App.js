@@ -1,20 +1,35 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import List from './src/components/List'
+import Video from './src/components/Video'
+import { createStackNavigator, createAppContainer } from "react-navigation";
 
-export default class App extends Component {
+
+
+
+
+class App extends React.Component {
+
   render() {
     return (
-      <List />
+
+
+
+      <List navigation={this.props.navigation} />
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+const AppNavigator = createStackNavigator(
+  {
+    List: List,
+    Video: Video
+  },
+  {
+    initialRouteName: "List"
   }
-});
+);
+
+
+export default createAppContainer(AppNavigator);
+
