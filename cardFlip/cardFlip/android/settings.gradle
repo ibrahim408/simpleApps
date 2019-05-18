@@ -1,0 +1,3 @@
+rootProject.name = 'cardFlip'
+
+include ':app'
