@@ -20,4 +20,4 @@ Project 6 -
 ![](findMyLocation/findMyLocationVideo.gif)
 
 Project 7 - 
-<img src="https://github.com/ibrahim408/simpleApps/blob/master/cardFlip/cardFlip2.gif" width="200" height="400" />
+<img src="https://github.com/ibrahim408/simpleApps/blob/master/cardFlip/cardFlip2.gif" width="400" height="800" />
