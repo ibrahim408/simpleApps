@@ -20,4 +20,4 @@ Project 6 -
 <img src="https://github.com/ibrahim408/simpleApps/blob/master/findMyLocation/findMyLocationVideo.gif" width="400" height="750" />
 
 Project 7 - 
-<img src="https://github.com/ibrahim408/simpleApps/blob/master/cardFlip/cardFlip2.gif" width="400" height="800" />
+<img src="https://github.com/ibrahim408/simpleApps/blob/master/cardFlip/cardFlip.gif" width="400" height="800" />
