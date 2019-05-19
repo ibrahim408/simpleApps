@@ -20,4 +20,4 @@ Project 6 -
 ![](findMyLocation/findMyLocationVideo.gif)
 
 Project 7 - 
-![](cardFlip/cardFlip.gif)
+![](cardFlip/cardFlip2.gif)
