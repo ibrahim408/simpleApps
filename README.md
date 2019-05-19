@@ -1,7 +1,8 @@
 a collection of simple react-native apps
 inspired by allenwong/30DaysofSwift
 
-Project 1 -
+Project 1 
+
 <img src="https://github.com/ibrahim408/simpleApps/blob/master/watch/stopWatch.gif" width="400" height="750" />
 
 Project 2 -
