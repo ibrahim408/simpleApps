@@ -1,4 +1,4 @@
-a collection of simple react-native apps
+a collection of  react-native apps
 inspired by allenwong/30DaysofSwift
 
 Project 1 
