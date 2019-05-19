@@ -18,3 +18,5 @@ Project 5 -
 
 Project 6 -
 ![](findMyLocation/findMyLocationVideo.gif)
+
+Project 7 - 
