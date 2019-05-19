@@ -14,7 +14,7 @@ Project 4 -
 ![](LocalVideo/video.gif)
 
 Project 5 -
-![](carouselEffect/carousalgif.gif)
+<img src="https://github.com/ibrahim408/simpleApps/blob/master/carouselEffect/carousal.gif" width="400" height="750" />
 
 Project 6 -
 <img src="https://github.com/ibrahim408/simpleApps/blob/master/findMyLocation/findMyLocationVideo.gif" width="400" height="750" />
