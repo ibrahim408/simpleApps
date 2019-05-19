@@ -20,4 +20,4 @@ Project 6 -
 ![](findMyLocation/findMyLocationVideo.gif)
 
 Project 7 - 
-![](https://github.com/ibrahim408/simpleApps/blob/master/cardFlip/cardFlip2.gif =250x250)
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://github.com/ibrahim408/simpleApps/blob/master/cardFlip/cardFlip2.gif" width="200" height="400" />
