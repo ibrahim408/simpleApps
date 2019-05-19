@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View,TouchableOpacity} from 'react-native';
 import CardFlip from 'react-native-card-flip';
-import BackCover from './BackCover.js'
+import BackCover from './src/components/BackCover'
+import FrontCover from './src/components/FrontCover'
 
 export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
         <CardFlip style={styles.cardContainer} ref={(card) => this.card = card} >
-          <TouchableOpacity activeOpacity={1} style={[styles.card, styles.card1]} onPress={() => this.card.flip()} >
-            <Text style={styles.label}>AB</Text>
+          <TouchableOpacity activeOpacity={1} style={[styles.card]} onPress={() => this.card.flip()} >
+            <FrontCover />
           </TouchableOpacity>
-          <TouchableOpacity activeOpacity={1} style={[styles.card, styles.card2]} onPress={() => this.card.flip()} >
+          <TouchableOpacity activeOpacity={1} style={[styles.card]} onPress={() => this.card.flip()} >
             <BackCover />
           </TouchableOpacity>
         </CardFlip>
@@ -29,12 +30,11 @@ const styles = StyleSheet.create({
   },
   cardContainer:{
     width: 320,
-    height: 470,
+    height: 500,
   },
   card:{
     width: 320,
-    height: 470,
-    backgroundColor: '#FE474C',
+    height: 500,
     borderRadius: 5,
     shadowColor: 'rgba(0,0,0,0.5)',
     shadowOffset: {
