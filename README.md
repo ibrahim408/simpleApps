@@ -5,7 +5,7 @@ Project 1 -
 ![](watch/Screen%20Shot%202019-03-15%20at%203.00.35%20PM.png)
 
 Project 2 -
-![](customFont/Screen%20Shot%202019-03-23%20at%205.19.06%20PM.png)
+<img src="https://github.com/ibrahim408/simpleApps/blob/master/customFont/fontMov.gif" width="400" height="750" />
 
 Project 3 -
 ![](SnapChatUI/SnapChatUIScreenShot.png)
