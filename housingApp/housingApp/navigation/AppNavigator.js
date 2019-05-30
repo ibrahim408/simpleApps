@@ -1,14 +1,14 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import Home from '../src/components/Home';
-import List from '../src/components/List';
+import Discover from '../src/components/Discover';
 
 const AppNavigator = createStackNavigator(
  {
-    List: { screen: List },
+    Discover: { screen: Discover },
     Home: { screen: Home},
  },
  {
-	initialRouteName: "List",
+	initialRouteName: "Discover",
 	defaultNavigationOptions: {
 		//header: null,
 	}
