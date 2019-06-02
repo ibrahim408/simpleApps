@@ -3,7 +3,7 @@ inspired by allenwong/30DaysofSwift
 
 project 8 
 
-<img src="https://github.com/ibrahim408/IBApps/blob/master/housingApp/housingApp/housingUI.gif" width="400" height="800" />
+<img src="https://github.com/ibrahim408/IBApps/blob/master/housingApp/housingApp/housingUI2.gif" width="400" height="800" />
 
 Project 7 
 
