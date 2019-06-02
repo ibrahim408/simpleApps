@@ -29,3 +29,5 @@ Project 7
 
 <img src="https://github.com/ibrahim408/simpleApps/blob/master/cardFlip/cardFlip.gif" width="400" height="800" />
 
+project 8 
+<img src="https://github.com/ibrahim408/IBApps/blob/master/housingApp/housingApp/housingUI.gif" width="400" height="800' />
